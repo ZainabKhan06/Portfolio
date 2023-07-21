@@ -909,9 +909,9 @@
 .menu_btn input{
   display: none;
 }
-.container2{
+/* .container2{
   padding: 10px;
-}
+} */
 .header-text {
   display: flex;
   flex-direction: column;
@@ -922,9 +922,10 @@
   margin-left: 30px;
 }
 .header-text p {
-  margin-top: 50px;
+/*   margin-top: 50px;
   margin-left: 0px;
-  margin-right: 0px;/*20%*/
+  margin-right: 0px;/*20%*/ 
+    text-align:center;
 }
 .img1{
   float:none;
