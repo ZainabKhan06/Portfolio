@@ -925,8 +925,8 @@
   margin-top: 50px;
   margin-left: 0px;
   margin-right: 15%;/*20%*/ 
-  text-align:center;
-}
+/*   text-align:center;*/
+} 
 .img1{
   float:none;
   /* display: none; */
@@ -940,7 +940,7 @@
   display: none;
 }
 #ex{
-  margin-top: 250px; /*350*/
+  margin-top: 150px; /*350*/
 }
 #ex-about{
   margin-left: 10%;
