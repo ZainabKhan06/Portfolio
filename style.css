@@ -909,9 +909,9 @@
 .menu_btn input{
   display: none;
 }
-/* .container2{
-  padding: 10px;
-} */
+.container2{
+  padding: 5px;
+}
 .header-text {
   display: flex;
   flex-direction: column;
