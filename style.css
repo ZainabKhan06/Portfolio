@@ -816,7 +816,7 @@
     overflow-x: hidden;
   }
   .container{
-    padding: 5px 10%;
+    padding: 5px 9%; /*10*/
   }
   nav{
     width:300px;
@@ -870,9 +870,6 @@
     background:  #ffffff;
     color: #3c0b43;
     position: absolute;
-    /* height: 100%; */
-    /* width: 55%; */
-    /* width: 100%; */
     margin-left: 10%;
     padding: 5px 10%;
     /* left: 100%; */
@@ -927,7 +924,7 @@
 .header-text p {
   margin-top: 50px;
   margin-left: 0px;
-  margin-right: 20%;
+  margin-right: 0px;/*20%*/
 }
 .img1{
   float:none;
@@ -942,33 +939,33 @@
   display: none;
 }
 #ex{
-  margin-top: 350px;
+  margin-top: 150px; /*350*/
 }
 #ex-about{
   margin-left: 10%;
   margin-right: 10%;
 }
 .vertical {
-  left: 10%;
+  left: 8%; /*10*/
 }
 .web-dev-container {
   margin-top: 20%;
-  margin-left:18% ;
+  margin-left:17% ; /*18*/
 }
 .python-dev-container {
   margin-top: 15%;
-  margin-left: 18%;
+  margin-left: 17%;
 }
 .mysql-container {
   margin-top: 15%;
-  margin-left: 18%;
+  margin-left: 17%;
 }
 .heading{
   margin-top: 120px;
 }
 .project-container{
   margin-left: 0px;
-  width: 400px;
+  width: 390px; /*400*/
 }
 .project-img{
   margin: 20px;
@@ -979,12 +976,13 @@
   width: 98px;
 }
 .project-title{
-  font-size: 15px;
+  font-size: 14px;
 }
 .project-description{
   font-size: 10px;
   margin-top: 20px;
   margin-bottom: 10px;
+  margin-right: 2px;/*comment*/
 }
 .contact-section {
   margin-left: 5%;
@@ -992,8 +990,8 @@
   margin-top: 8%;
 }
 .contact-image {
-  height:130px;
-  width:130px;
+  height:110px;/*130*/
+  width:110px;
   margin-top: 10px;
 }
 .contact-description {
@@ -1004,6 +1002,6 @@
   width: 350px;
 }
 .about_container span{
-  font-size: 20px;
+  font-size: 18px;/*20*/
 }
 }
