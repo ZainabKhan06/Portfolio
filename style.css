@@ -924,7 +924,7 @@
 .header-text p {
   margin-top: 50px;
   margin-left: 0px;
-  margin-right: 0px;/*20%*/ 
+  margin-right: 15%;/*20%*/ 
   text-align:center;
 }
 .img1{
@@ -940,7 +940,7 @@
   display: none;
 }
 #ex{
-  margin-top: 150px; /*350*/
+  margin-top: 250px; /*350*/
 }
 #ex-about{
   margin-left: 10%;
