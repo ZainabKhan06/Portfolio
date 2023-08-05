@@ -21,7 +21,7 @@
        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Diphylleia&family=Great+Vibes&display=swap');
     </style>
 </head>
-<body>
+<body oncontextmenu="return false;">
    <div class="content">
         <div id="header">
             <div class="container" >
@@ -187,8 +187,24 @@
     });
   });
 });
-
-      </script>
+     document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+                return false;
+            }
+        }
+</script>
   </div>
   <footer>
     <div class="about_container">
