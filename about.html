@@ -74,3 +74,53 @@
             </div>    
         </div>
     </div>
+
+    <script>
+      // the following code is used to give a shadow to navigation bar when the page is scrolled
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > 10) {
+              $('#navBar').addClass('floatingNav');
+          } else {
+              $('#navBar').removeClass('floatingNav');
+          }
+      });
+      document.addEventListener("DOMContentLoaded", function() {
+      var menuLinks = document.querySelectorAll(".menu_items li a");
+      var menuCheckbox = document.getElementById("menu_check");
+
+      menuLinks.forEach(function(link) {
+        link.addEventListener("click", function() {
+          menuCheckbox.checked = false;
+    });
+  });
+});
+        window.oncontextmenu = function () {
+            return false;
+        }
+        
+        $(function() {
+        $(this).bind("contextmenu", function(e) {
+            e.preventDefault();
+        });
+    });
+     document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+                return false;
+            }
+        }
+</script>
+</body>
+</html>
+    
