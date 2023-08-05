@@ -1,52 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>👩🏻‍🎓 SMS</title>
-    <link rel="icon" type="image/png" href="images/favicon1.png">
-    <!--<link rel="import" href="Nav.html">-->
-    <link rel="stylesheet" href="SMS.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2VZ16G3VE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q2VZ16G3VE');
+    </script>
+    <title> 👩🏻‍🎓SMS project</title>
+    <link rel="icon" type="image/png" href="favicon1.png">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/346c6bdfdd.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Diphylleia&family=Great+Vibes&display=swap');
+    </style>
 </head>
-<body>
-   <!-- <div class="content">
+<body oncontextmenu="return false;">
+   <div class="content">
         <div id="header">
             <div class="container" >
-                <nav id="navBar">
-                    <ul>
-                        <li><a href="index1.html"><span>Zainab</span></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                        <li><a href="work.html">work</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="#">resume</a></li>
-                        <li><a href="contact.html">contact</a></li>
+                <nav id="navBar" class="menu_container">
+                  <a href="main.html">
+                    <span class="Logo">Zainab Khan</span>
+                  </a>
+                  <!--<a href="main.html"><span class="Logo">Zainab Khan</span></a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <label for="menu_check" class="menu_btn"> 
+                    <!-- checkbox to track when the hamburger menu is clicked on -->
+                    <input type="checkbox" id="menu_check">
+                    <!-- the hamburger menu -->
+                    <div class="menu_hamburger"></div> 
+                    <ul class="menu_items">
+                        <!-- <li><span class="Logo">Zainab Khan</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> -->
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Resume</a></li>
                    
                     </ul>
+                  </label>
                 </nav>
             </div>
-        </div> -->
-        <div class="content">
-            <div id="header">
-                <div class="container" >
-                    <nav id="navBar">
-                      <!-- <a href="index1.html"><span class="Logo">Zainab</span></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                      </label>
-                        <ul>
-                            <li><span class="Logo">Zainab Khan</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                            <li><a href="#Project-section">Project</a></li>
-                            <li><a href="#Experience-section">About</a></li>
-                            <li><a href="#Contact-section">Contact</a></li>
-                            <li><a href="#">Resume</a></li>
-                       
-                        </ul>
-                    </nav>
-                </div>
             <div class="heading">
                 <h1>Student Management System</h1>
             </div>
-            <img id="SMS_image" src="images/SMS1.png">
+            <img id="SMS_image" src="SMS1.png">
             <div class="SMS_container">
                 <p class="SMS_content">Student Management System is developed using python. Talking about the project, it contains
                     only an admin side from where the admin can maintain student records easily. In this project,
@@ -59,7 +62,7 @@
                 </p>
             
             <div class="Source_btn">
-                <a class="button" href="https://github.com/ZainabKhan06" target="_blank"><i class="fa-brands fa-github"></i> Source Code</a>
+                <a class="button" href="https://github.com/ZainabKhan06/Student_Management_System" target="_blank"><i class="fa-brands fa-github"></i> Source Code</a>
             </div>
             </div>
         </div>
@@ -73,6 +76,33 @@
               $('#navBar').removeClass('floatingNav');
           }
       });
+
+         window.oncontextmenu = function () {
+            return false;
+        }
+        
+        $(function() {
+        $(this).bind("contextmenu", function(e) {
+            e.preventDefault();
+        });
+    });
+     document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+                return false;
+            }
+        }
     </script>
 </body>
 </html>
