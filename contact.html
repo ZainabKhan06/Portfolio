@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2VZ16G3VE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q2VZ16G3VE');
+    </script>
+    <title> 👉🏻Contact me</title>  
+    <link rel="icon" type="image/png" href="favicon1.png">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/346c6bdfdd.js" crossorigin="anonymous"></script>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Diphylleia&family=Great+Vibes&display=swap');
+    </style>
+</head>
+
+  <body oncontextmenu="return false;" >
+   <div class="content">
+        <div id="header">
+            <div class="container" >
+                <nav id="navBar" class="menu_container">
+                  <a href="main.html">
+                    <span class="Logo">Zainab Khan</span>
+                  </a>
+                  <label for="menu_check" class="menu_btn"> 
+                    <!-- checkbox to track when the hamburger menu is clicked on -->
+                    <input type="checkbox" id="menu_check">
+                    <!-- the hamburger menu -->
+                    <div class="menu_hamburger"></div> 
+                    <ul class="menu_items">
+                        <!-- <li><span class="Logo">Zainab Khan</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> -->
+                        <li><a href="project.html">Project</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Resume</a></li>
+                   
+                    </ul>
+                  </label>
+                </nav>
+            </div>   
+            <div class="heading" id="Contact-section">
+                <h1>Contact Info </h1>
+             </div>
+               <div  class="contact-section">
+                   <div class="contact-content">
+                       <h2 class="contact-heading">Get in touch</h2>
+                         <p class="contact-description">
+                             Feel free to contact me for any queries.<br>Don't hesitate to reach out!
+                         </p>
+                           <div class="social-links">
+                             <a href="mailto:zainab.contact@gmail.com" class="social-link">
+                               <h5 class="social-username" id="mail"><i id="social-icon" class="fa-solid fa-envelope"></i>  #zainab </h5>
+                             </a>
+                            
+                             <a href="linkedin.com/in/khan-zainab-a04aa4264" target="_blank" rel="noopener noreferrer" class="social-link" >
+                               <h5 class="social-username" id="linkedin"><i id="social-icon" class="fa-brands fa-linkedin-in"></i>  khan zainab </h5>
+                             </a>
+                             <a href="https://wa.me/8691057915" target="_blank" rel="noopener noreferrer" class="social-link">
+                               <h5 class="social-username" id="whatsapp"><i id="social-icon" class="fa-brands fa-whatsapp"></i>  8691057915</h5>
+                             </a>
+                             <a href="https://instagram.com/k_zainab09" target="_blank" rel="noopener noreferrer" class="social-link">
+                              <h5 class="social-username"> <i id="social-icon" class="fa-brands fa-instagram"></i>  @khan zainab</h5>
+                             </a>
+                           </div>
+                     </div>
+                         <img src="mailpng.png" alt="contact" class="contact-image">
+                   </div>
+        </div>
+    </div>
+
+    <script>
+      // the following code is used to give a shadow to navigation bar when the page is scrolled
+      $(window).scroll(function() {
+          if ($(window).scrollTop() > 10) {
+              $('#navBar').addClass('floatingNav');
+          } else {
+              $('#navBar').removeClass('floatingNav');
+          }
+      });
+      document.addEventListener("DOMContentLoaded", function() {
+      var menuLinks = document.querySelectorAll(".menu_items li a");
+      var menuCheckbox = document.getElementById("menu_check");
+
+      menuLinks.forEach(function(link) {
+        link.addEventListener("click", function() {
+          menuCheckbox.checked = false;
+    });
+  });
+});
+
+
+        window.oncontextmenu = function () {
+            return false;
+        }
+        
+        $(function() {
+        $(this).bind("contextmenu", function(e) {
+            e.preventDefault();
+        });
+    });
+     document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+                return false;
+            }
+        }
+</script>
+</body>
+</html>
+    
