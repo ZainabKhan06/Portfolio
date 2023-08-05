@@ -99,7 +99,7 @@
   .heading{
     text-align: center;
     margin-top: 100px;
-    background: -webkit-linear-gradient(180deg, rgba(127,249,241,0.8633578431372549) 12%, rgba(237,87,209,1) 29%, rgba(234,40,103,0.7064950980392157) 47%, rgba(126,111,239,0.7289040616246498) 67%, rgba(250,255,0,1) 84%, rgba(128,0,255,1) 100%, rgba(15,205,244,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg,  rgb(179, 9, 148) 45%, rgb(227, 104, 143) 55%);
     -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -109,7 +109,7 @@
     border-radius: 200px;
     margin-left: 40%;
     margin-top: 5%;
-    border : 3px solid  rgb(255, 235, 238);
+    border : 3px solid rgb(243, 161, 197);
   }
   
 .about_container{
