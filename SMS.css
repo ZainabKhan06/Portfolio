@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Diphylleia&family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+   
+  }
+  
+  .content{
+    /*max-width: 500px;*/
+    /*margin: auto;*/
+    align-content: center;
+  }
+  
+  body{
+    color: #000000;
+    background-image: url('images/header-gradient.svg'),url('images/footer-gradient.svg') ;
+    background-position: top,bottom;
+    background-repeat:no-repeat;
+     
+  }
+  
+  #header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+  }
+  .container{
+    padding: 5px 19%;
+  }
+  nav{
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+   /* margin-right: 50%; */
+    position: fixed;
+    z-index: 1;
+    /*float: left;*/
+  }
+  .floatingNav{
+  box-shadow: 0px 1px 10px #999;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+  }
+  nav ul li a{
+    color:#000000c8;
+    text-decoration: none;
+    font-family: 'Diphylleia';
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 0px;
+   
+  }
+  a{
+  text-decoration-line: none;
+  }
+  .Logo{
+    background: rgb(237,81,81);
+    background: linear-gradient(90deg, rgba(224, 60, 128, 0.863) 25%, rgba(150, 15, 173, 0.706) 50%,
+    rgba(111,239,223,0.7289040616246498) 75%, rgba(0,212,255,1) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-family: 'Great Vibes',cursive;
+   font-size: 25px;
+   font-weight: bold;
+   padding-left: 20px;
+   padding-right: 10px;
+  }
+  nav ul li a:hover{
+  color:rgb(233, 97, 217) ;
+  }
+  nav ul li a.active{
+  color:rgb(94, 9, 117) ;
+  }
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    background: -webkit-linear-gradient(180deg, rgba(127,249,241,0.8633578431372549) 12%, rgba(237,87,209,1) 29%, rgba(234,40,103,0.7064950980392157) 47%, rgba(126,111,239,0.7289040616246498) 67%, rgba(250,255,0,1) 84%, rgba(128,0,255,1) 100%, rgba(15,205,244,1) 100%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#SMS_image{
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.SMS_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:300px;
+    width: 700px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.SMS_content{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.Source_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: color,box-shadow 0.3s ease;
+
+}
+.button:hover {
+    color: rgb(255, 69, 240);
+    box-shadow: #999;
+
+} 
