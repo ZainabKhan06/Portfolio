@@ -252,4 +252,15 @@
 .menu_btn input{
   display: none;
 }
+#SMS_image{
+  height: 200px;
+  width: 300px;
+}
+.SMS_container{
+  height:500px;
+  width: 300px; 
+}
+.SMS_content{
+  font-size: 18px;
+}
 }
