@@ -15,14 +15,14 @@
     </script>
     <title> ❓Quiz game project</title>
     <link rel="icon" type="image/png" href="favicon1.png">
-    <link rel="stylesheet" href="SMS.css">
+    <link rel="stylesheet" href="quiz.css">
     <script src="https://kit.fontawesome.com/346c6bdfdd.js" crossorigin="anonymous"></script>
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Diphylleia&family=Great+Vibes&display=swap');
     </style>
 </head>
-<!-- oncontextmenu="return false;" -->
-<body>
+
+<body oncontextmenu="return false;">
    <div class="content">
         <div id="header">
             <div class="container" >
@@ -50,7 +50,7 @@
             <div class="heading">
                 <h1>Quiz Game</h1>
             </div>
-            <img id="Quiz_image" src="images/Quiz.png">
+            <img id="Quiz_image" src="Quiz.png">
             <div class="Quiz_container">
                 <p class="Quiz_content">Dive into the world of interactive learning and fun with our captivating Quiz Game project, 
                   built using the power of Python. Get ready to challenge your wits and broaden your horizons as you take on a series 
@@ -77,7 +77,7 @@
               $('#navBar').removeClass('floatingNav');
           }
       });
-/*
+
          window.oncontextmenu = function () {
             return false;
         }
@@ -103,7 +103,7 @@
             if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
                 return false;
             }
-        }*/
+        }
     </script>
 </body>
 </html>
